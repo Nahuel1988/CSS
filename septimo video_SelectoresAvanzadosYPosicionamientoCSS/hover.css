@@ -1,0 +1,26 @@
+.body {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.btn {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 40px;
+    border: 2px solid cyan;
+    color: white;
+    background-color: transparent;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+}
+.btn:hover {
+    background-color: cyan;
+    color: black;
+    /* transform: scale(1.1); */
+    box-shadow: 0 0 5px cyan, 0 0 10px cyan, 0 0 10px cyan;
+    border: none;
+}

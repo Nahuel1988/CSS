@@ -1,0 +1,56 @@
+body {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+div {
+    position: static; /* Valor por defecto */
+    width: 200px;
+    height: 100px;
+    background-color: #E7E0FF;
+}
+.caja-relativa {
+    position: relative;
+    top: 20px; /* Desplaza 20px hacia abajo */
+    left: 20px; /* Desplaza 20px hacia la derecha */
+    background-color: #403ccf;
+    color: white;
+    padding: 15px;
+}
+.contenedor {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #ccc;
+}
+.caja-absoluta {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    background-color: #ff3333;
+}
+.menu-fijo {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+background-color: #403ccf;
+color: white;
+padding: 10px;
+z-index: 100;
+}
+.contenido {
+margin-top: 60px; /* Espacio para el menú fijo */
+}
+.titulo-sticky {
+position: sticky;
+top: 0;
+padding: 10px;
+background-color: #E7E0FF;
+color: #403ccf;
+z-index: 10;
+}
